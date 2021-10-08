@@ -1,11 +1,8 @@
-/* eslint-disable */
-import "bootstrap";
-import "./style.css";
+function cardMaker() {
+  let result = Math.floor(Math.random() * 4) + 1;
+  document.querySelector("#card").innerHTML = result;
+}
 
-import "./assets/img/rigo-baby.jpg";
-import "./assets/img/4geeks.ico";
-
-window.onload = function() {
-  //write your code here
-  console.log("Hello Rigo from the console!");
-};
+let myStyle = document.querySelector("body");
+myStyle.style.background = "green";
+cardMaker();
