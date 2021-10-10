@@ -4,14 +4,41 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hello Rigo with Vanilla.js</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"
       type="text/css"
     />
+    <style>
+      body {
+        background-color: green;
+      }
+      div {
+        margin-bottom: 20px;
+        margin-left: 500px;
+        margin-right: 500px;
+        height: 400px;
+        margin-top: 20px;
+      }
+      #cardTwo {
+        margin-left: 20px;
+      }
+      #cardOne {
+        margin-right: 10px;
+      }
+    </style>
   </head>
   <body>
-    <div id="card"></div>
-    <div id="cardTwo"></div>
+    <div class="card">
+      <div id="cardTwo"></div>
+      <div id="cardOne"></div>
+    </div>
   </body>
 </html>

@@ -5,9 +5,9 @@ document.querySelector("#cardTwo").innerHTML = iconMaker;
 
 function cardMaker() {
   let result = Math.floor(Math.random() * 4) + 1;
-  document.querySelector("#card").innerHTML = result;
+  document.querySelector("#cardOne").innerHTML = result;
 }
 
-let myStyle = document.querySelector("body");
-myStyle.style.background = "green";
+let myStyle = document.querySelector("div");
+myStyle.style.background = "white";
 cardMaker();
