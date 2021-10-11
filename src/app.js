@@ -1,4 +1,4 @@
-let icons = ["♦", "♥", "♠", "♣"];
+let icons = ["♦", "<i class='color'>♥</i>", "♠", "♣"];
 
 let iconMaker = icons[Math.floor(Math.random() * icons.length)];
 document.querySelector("#cardTwo").innerHTML = iconMaker;
