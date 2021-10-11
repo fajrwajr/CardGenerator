@@ -34,6 +34,6 @@ function cardDisplay() {
     document.querySelector("#cardOne").innerHTML = result;
   }, 3000);
 }
-
 cardDisplay();
-//document.querySelector("#change").addEventListener("click", cardDisplay);
+
+//document.querySelector(#change").addEventListener("click", cardDisplay);
