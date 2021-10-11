@@ -1,5 +1,13 @@
 let myStyle = document.querySelector("div");
+let Body = document.querySelector("body");
+Body.style.background = "green";
 myStyle.style.background = "white";
+myStyle.style.margin = "80px";
+myStyle.style.marginLeft = "500px";
+myStyle.style.marginRight = "550px";
+myStyle.style.marginTop = "100px";
+myStyle.style.marginBottom = "200px";
+myStyle.style.height = "400px";
 
 function cardDisplay() {
   setInterval(function() {
