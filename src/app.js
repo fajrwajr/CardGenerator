@@ -1,11 +1,18 @@
 let myStyle = document.querySelector("div");
 let Body = document.querySelector("body");
 let card = document.getElementsByClassName("blue")[0];
+let cardTwo = document.getElementsByClassName("red1")[0];
+let cardThree = document.getElementsByClassName("red")[0];
+
 Body.style.background = "green";
 myStyle.style.background = "white";
-card.style.marginTop = "250px";
-card.style.marginLeft = "145px";
+card.style.marginTop = "80px";
+card.style.marginLeft = "130px";
 card.style.fontSize = "80px";
+card.style.marginBottom = "50px";
+cardTwo.style.marginLeft = "250px";
+cardTwo.style.fontSize = "80px";
+cardThree.style.fontSize = "80px";
 myStyle.style.background = "white";
 myStyle.style.margin = "80px";
 myStyle.style.marginLeft = "500px";
